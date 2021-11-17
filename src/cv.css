@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #000;
+    background-color: #c1c1c1;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.red{
+    color: #BB1E1E;
+
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.resume-build{
+    width: 920px;
+    padding: 80px 80px 60px;
+    margin: 80px auto;
+    background-color: #fff;
+    box-shadow: 2px 2px 1px #606060;
+}
+.resume-inner{}
+.resume-section{
+    margin-top: 1.5em;
+} 
+/* _______HEADER _______ */
+
+.resume-header{
+    display: flex;
+}
+/* Container inside resume section */
+.resume-section-text{
+    -webkit-box-flex: 1;
+    flex: 1;
+    padding: 0 15px;
+}
+
+.resume-header-name{
+    display: block;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 5px;
+    color: #BB1E1E;
+}
+.resume-header-subname{
+    display: block;
+    text-transform: none;
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 5px;
+    color: #777;
+}
+.resume-header-info{}
+
+.hcltech{
+    border-left: 2px solid #736b6b;
+    margin-left: 5px;
+    padding-left: 5px;
+}
+/* container inside resume section */
+.resume-section-meta{
+    font-size: 14px;
+    color: #BB1E1E;
+    white-space: nowrap;
+}
+.resume-section-meta-right{
+    float: right;
+    border-left: 1px solid #e0e0e0;
+    padding-left: 15px;
+    text-align: left;
+}
+.resume-section-meta-row a{
+    text-decoration: none;
+}
+.resume-section-meta-row a:hover{
+    color: #BB1E1E;
+    text-decoration: underline;
+}
+
+
+/* Resume sections */
+.resume-section-title{
+    color: #BB1E1E;
+    font-size: 24px;
+    font-weight: 300;
+    padding-left: 1.5%;
+    margin-bottom: 15px;
+    page-break-after: avoid;
+}
+.resume-section-content{
+    /* padding-left: 1.5%; */
+}
+
+.project-info{
+    padding-left: 1.5%;
+}
+.project-info h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.3;
+}
+.project-info a{
+    text-decoration: none;
+    color: #BB1E1E;
+}
+.education-content{}
+.education-content .institute-name{
+    float: left;
+    width: 23%;
+    text-align: center;
+    padding-right: 15px;
+    color: #777;
+    font-size: 13px;
+}
+.education-content .institute{
+    background-color: #eee;
+    padding: 3px 7px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+.education-content .studyname .course-title{
+    font-weight: 400;
+    font-size: 18px;
+    color: #333;
+    line-height: 1.3;
+}
+.certifications ul{}
+.certifications ul li{
+
+}
+.resume-section ul li a{
+    text-decoration: none;
+    color: rgb(87, 41, 41);
+}
+
+.download-cv{
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+.download-cv a{
+    text-decoration: none;
+    border: 2px solid white;
+    background-color:rgb(2, 2, 29) ;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+    
+}
