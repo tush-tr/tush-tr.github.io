@@ -8,6 +8,7 @@ const ResumeHeader = () => {
                     A creative and passionate developer with strong interest in cloud native technologies.<br />and fully committed to learn about new technologies always.
                 </div>
             </div>
+            
             <div className="resume-section-meta">
                 <div className="resume-section-meta-right">
                     <div className="resume-section-meta-row"><a className="red" href="https://tush-tr.github.io/"> tush-tr.github.io </a>
@@ -19,7 +20,6 @@ const ResumeHeader = () => {
                     {/* <div className="resume-section-meta-row"><a href /></div> */}
                 </div>
             </div>
-
         </div>
     )
 }
