@@ -15,7 +15,7 @@ const ResumeHeader = () => {
                     </div>
                     <div className="resume-section-meta-row"><a className="red" href> tusharrajput604@gmail.com </a></div>
                     <div className="resume-section-meta-row">(+91)9058015227 </div>
-                    <div className="resume-section-meta-row"><a className="red" href="https://www.linkedin.com/in/tushar-r-849510116/">l inkedin.com/in/tushar-r-849510116/ </a></div>
+                    <div className="resume-section-meta-row"><a className="red" href="https://www.linkedin.com/in/tushar-r-849510116/">linkedin.com/in/tushar-r-849510116/ </a></div>
                     <div className="resume-section-meta-row"><a className="red" href="https://github.com/tush-tr"> github.com/tush-tr </a></div>
                     {/* <div className="resume-section-meta-row"><a href /></div> */}
                 </div>

@@ -1,6 +1,7 @@
+import Navbar from './components/home/navbar'
 const Home = ()=>{
     return(
-        <h1>Tushar</h1>
+        <Navbar />
     )
 }
 export default Home
