@@ -1,7 +1,7 @@
 import { Navbar, Container, Nav } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './navbar.css'
-const Navbarcom = () => {
+const NavBar = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="bg-nav">
             <Container>
@@ -17,4 +17,4 @@ const Navbarcom = () => {
         </Navbar>
     )
 }
-export default Navbarcom;
+export default NavBar;

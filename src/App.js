@@ -1,6 +1,6 @@
 import './App.css';
-import Home from "./home"
-import CV from "./cv"
+import Home from "./pages/Home"
+import CV from "./pages/CV"
 import { HashRouter as Router, Routes, Route } from "react-router-dom"
 
 function App() {

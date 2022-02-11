@@ -15,12 +15,11 @@ body{
 }
 .resume-build{
     width: 920px;
-    padding: 80px 80px 60px;
+    padding: 36px 65px 60px;
     margin: 80px auto;
     background-color: #fff;
     box-shadow: 2px 2px 1px #606060;
 }
-.resume-inner{}
 .resume-section{
     margin-top: 1.5em;
 } 
