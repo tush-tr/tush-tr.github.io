@@ -5,10 +5,12 @@ const Projects = () => {
       <h3 className="resume-section-title">Projects</h3>
       <div className="resume-section-content project-info">
         <Template
-          title="Car Rental System"
-          desc="A car rental system website built using nodejs, EJS and MongoDB."
-          link="https://github.com/tush-tr/car-rental-system"
-        />
+          title="Book Any Car"
+          desc="A car rental system website built using MERN stack(MongoDB,Express,React,Node.js)"
+          link="https://tush-tr.github.io/BookAnyCar/"
+        >
+          <a href="https://github.com/tush-tr/BookAnyCar">Live Link</a>
+        </Template>
         <Template
         title="Gcloudact"
         desc="A Terraform module for hosting your own runner for CI/CD on Google Cloud to run jobs in your GitHub Actions workflows."
