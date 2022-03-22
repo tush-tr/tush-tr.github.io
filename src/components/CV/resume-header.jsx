@@ -1,6 +1,9 @@
+import pic from "./pic2.jpeg"
+import "./header.css"
 const ResumeHeader = () => {
   return (
     <div className="resume-section resume-header">
+      <img src={pic} alt="" />
       <div className="resume-section-text">
         <h1 className="resume-header-name">TUSHAR RAJPOOT</h1>
         <h2 className="resume-header-subname">Full-stack Developer</h2>
