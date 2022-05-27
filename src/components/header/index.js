@@ -1,5 +1,8 @@
 import Navbar from './navbar'
-const header = ()=>{
+import { useLocation } from 'react-router-dom';
+const Header = ()=>{
+    console.log(useLocation().pathname.slice(1))
+    
     return (
         <div>
             <Navbar />
@@ -7,4 +10,4 @@ const header = ()=>{
     )
 }
 
-export default header;
+export default Header;

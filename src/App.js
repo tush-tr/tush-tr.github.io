@@ -1,10 +1,8 @@
 import "./App.css";
-import Home from "./pages/Home";
-import CV from "./pages/CV";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import Main from "./Main";
 import { useEffect, useState } from "react";
 import Loading from "./utils/loading";
-
+import { HashRouter as Router } from "react-router-dom";
 function App() {
   const [spinner, setSpinner] = useState(true);
   useEffect(() => {
@@ -15,10 +13,7 @@ function App() {
   if (!spinner) {
     return (
       <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/resume" element={<CV />} />
-        </Routes>
+        <Main />
       </Router>
     );
   } else {
