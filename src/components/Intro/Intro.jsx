@@ -1,11 +1,23 @@
-const Intro = ()=>{
-    return(
-        <div className="intro-section-inner-div">
-            <h1 className="intro-section-heading-hi">Hi, I'm</h1>
-            <h2 className="intro-section-heading-name">Tushar Rajpoot</h2>
-            <h3 className="intro-section-profile-heading">Full-Stack Developer | DevOps Engineer</h3>
-            <h3 className="intro-section-build-things">I build things for the web and mobile.</h3>
-        </div>
-    )
-}
+const Intro = () => {
+  return (
+    <div className="intro-section-inner-div">
+      <h1 className="intro-section-heading-hi intro-section-item">Hi, I'm</h1>
+      <h2 className="intro-section-heading-name intro-section-item">
+        Tushar Rajpoot
+      </h2>
+      <h3 className="intro-section-profile-heading intro-section-item">
+        Full-Stack Developer | DevOps Engineer
+      </h3>
+      <h3 className="intro-section-build-things intro-section-item">
+        I build things for the web and mobile.
+      </h3>
+      <p className="intro-section-paragraph">
+        I'm a DevOps Engineer and a passionate Developer having 1+ year of
+        hands-on experience in automating and optimizing critical deployments
+        over a large infrastructure.<br/>
+        Passionate about Web development and Cloud-Native technologies.
+      </p>
+    </div>
+  );
+};
 export default Intro;
