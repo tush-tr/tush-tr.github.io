@@ -12,14 +12,11 @@ const Terminal = () => {
           $ echo $Tushar<span className="cursor1">_</span>
         </p>
         <p className="line2">
-          A passionate developer and DevOps Engineer having 1+ year of
-          experience with handson on automating and optimizing critical
-          deployments over a large infrastructure. Passionate about Web
-          development and Cloud-Native technologies.
+          A Software Engineer with a strong interest in Cloud-Native Technologies.
           <span className="cursor2">_</span>
         </p>
         <p className="line3">
-          [?] What more would you like? (Press space to select)
+          [?] Specialized in both frontend and backend development.
           <span className="cursor3">_</span>
         </p>
         <p className="line4">

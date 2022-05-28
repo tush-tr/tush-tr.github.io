@@ -1,9 +1,5 @@
-import Terminal from "../../components/terminal";
+import IntroSection from "../../components/Intro";
 const Home = () => {
-  return (
-    <div>
-      This is home page
-    </div>
-  );
+  return <IntroSection />;
 };
 export default Home;

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+.intro-section-wrapper{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 65%;
+    padding: 60px;
+}
+.intro-section-heading-name{
+    color: white;
+    font-size: 3.5rem;
+    font-family: 'Merriweather', serif;
+
+}

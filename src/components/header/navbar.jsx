@@ -23,6 +23,14 @@ const NavBar = () => {
               Home
             </NavLink>
             <NavLink
+              to="/about"
+              className={({ isActive }) =>
+                isActive ? "link-active navlink" : "link navlink"
+              }
+            >
+              About
+            </NavLink>
+            <NavLink
               to="/work"
               className={({ isActive }) =>
                 isActive ? "link-active navlink" : "link navlink"
@@ -30,11 +38,21 @@ const NavBar = () => {
             >
               Work
             </NavLink>
+            <NavLink
+              to="/offer"
+              className={({ isActive }) =>
+                isActive ? "link-active navlink" : "link navlink"
+              }
+            >
+              Offer
+            </NavLink>
+            
             <div className="resume-nav-bar-wrapper">
               <a
                 href="https://tush-tr.github.io/CV"
                 class="navlink resume-link-nav"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 Resume
               </a>

@@ -1,7 +1,6 @@
 .home-page{
-    padding: 20px;
+    padding: 40px;
     display: flex;
-}
-.terminal-home-page{
-    margin-left: auto;
+    max-height: 100%;
+    height: auto;
 }
