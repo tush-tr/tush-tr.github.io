@@ -12,11 +12,6 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v1
-      - name: NPM Cleaning
-        run: |
-          npm cache clean --force
-          rm -rf node_modules
-          rm package-lock.json
       - name: Install
         run: npm ci
       - name: Build
