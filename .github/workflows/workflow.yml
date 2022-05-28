@@ -18,7 +18,7 @@ jobs:
           rm -rf node_modules
           rm package-lock.json
       - name: Install
-        run: npm install 
+        run: npm ci
       - name: Build
         run: npm run build
       - name: Deploy
