@@ -4,3 +4,8 @@
     max-height: 100%;
     height: auto;
 }
+.home-page-about-section-portfolio-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

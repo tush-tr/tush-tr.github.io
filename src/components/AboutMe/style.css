@@ -1,0 +1,34 @@
+.about-me-section{
+    width: 60%;
+    padding: 20px;
+    color: white;
+    border-top: 2px solid #4debc67a;
+    border-width: 60%;
+}
+.about-me-section-inner-section{
+    display: flex;
+}
+.about-me-section-information-container{
+    padding-right: 20px;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.873);
+}
+.about-me-section-image-container-my-pic-image{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    opacity: 1;
+    box-shadow: 6px 8px 5px 0px #64ffda;
+    display: block;
+    position: relative;
+    border-radius: 10px;
+    background-color: #64ffda;
+    mix-blend-mode: luminosity;
+}
+.about-me-section-image-container-my-pic-image:hover{
+    mix-blend-mode: normal;
+}
+.about-me-section-skills-list-wrapper{
+    display: flex;
+    padding: 10px;
+}
