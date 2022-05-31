@@ -64,6 +64,15 @@ span {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 600px) {
+  .fakeMenu{
+    width: 90%;
+  }
+  .fakeScreen{
+    width: 90%;
+  }
+}
+
 .line1 {
   color: #9cd9f0;
   -webkit-animation: type 0.5s 1s steps(20, end) forwards;

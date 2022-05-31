@@ -1,11 +1,17 @@
-.home-page{
-    padding: 40px;
-    display: flex;
-    max-height: 100%;
-    height: auto;
+.home-page {
+  padding: 40px;
+  display: flex;
+  max-height: 100%;
+  height: auto;
 }
-.home-page-about-section-portfolio-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.home-page-about-section-portfolio-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 600px) {
+  .home-page{
+      flex-direction: column;
+      padding: 20px;
+  }
 }
