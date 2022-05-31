@@ -1,4 +1,4 @@
-.terminal-main-start{
+.terminal-main-start {
   padding: 10px;
 }
 
@@ -65,11 +65,24 @@ span {
 }
 
 @media only screen and (max-width: 600px) {
-  .fakeMenu{
+  .fakeMenu {
     width: 90%;
   }
-  .fakeScreen{
+  .fakeScreen {
     width: 90%;
+    padding: 30px;
+  }
+  .terminal-main-start p {
+    position: relative;
+    left: 50%;
+    margin-left: -8.5em;
+    text-align: left;
+    font-size: 1em;
+    padding: 0 20px;
+    font-family: monospace;
+    white-space: normal;
+    overflow: hidden;
+    width: 0;
   }
 }
 
