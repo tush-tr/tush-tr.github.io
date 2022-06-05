@@ -1,3 +1,5 @@
+import IconBar from "../contactIconBar";
+
 const Intro = () => {
   return (
     <div className="intro-section-inner-div">
@@ -18,6 +20,9 @@ const Intro = () => {
         <br />
         Passionate about Web development and Cloud-Native technologies.
       </p>
+      <div className="icon-bar-wrapper">
+        <IconBar />
+      </div>
     </div>
   );
 };
