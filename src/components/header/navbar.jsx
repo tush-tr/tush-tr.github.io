@@ -46,7 +46,14 @@ const NavBar = () => {
             >
               Offer
             </NavLink>
-            
+            <a
+              href="https://tush-tr.github.io/blogs"
+              class="navlink"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              Blogs
+            </a>
             <div className="resume-nav-bar-wrapper">
               <a
                 href="https://tush-tr.github.io/CV"
