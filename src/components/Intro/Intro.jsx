@@ -8,7 +8,7 @@ const Intro = () => {
         Tushar Rajpoot
       </h2>
       <h3 className="intro-section-profile-heading intro-section-item">
-        Full-Stack Developer | DevOps Engineer
+        Software/Web Developer | DevOps Engineer
       </h3>
       <h3 className="intro-section-build-things intro-section-item">
         I build things for the web and mobile.
