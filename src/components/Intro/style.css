@@ -45,4 +45,7 @@
   .intro-section-paragraph{
       width: 100%;
   }
+  .icon-bar-wrapper{
+    text-align: center;
+  }
 }
