@@ -1,4 +1,4 @@
-import IntroSection from "../../components/Intro";
+import IntroSection from "../../components/HomePage/Intro";
 const Home = () => {
   return <IntroSection />;
 };

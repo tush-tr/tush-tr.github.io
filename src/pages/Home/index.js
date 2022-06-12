@@ -1,5 +1,5 @@
 import Home from "./home";
-import Terminal from "../../components/terminal";
+import Terminal from "../../components/HomePage/terminal";
 import Portfolio from "./portfolio";
 import "./style.css";
 const HomePage = () => {
