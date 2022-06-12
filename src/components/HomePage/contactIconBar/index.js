@@ -5,7 +5,7 @@ import {
   AiFillYoutube,
   AiFillMail,
 } from "react-icons/ai";
-import Icon from "../../UI/Icon";
+import Icon from "../../../UI/Icon";
 const IconBar = () => {
   return (
     <div>

@@ -1,4 +1,4 @@
-import HomeCard from "../../UI/HomeCard";
+import HomeCard from "../../../UI/HomeCard";
 import ExperienceSection from "./experience";
 const Experience = () => {
   return (

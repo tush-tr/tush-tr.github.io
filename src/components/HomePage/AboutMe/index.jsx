@@ -1,5 +1,5 @@
 import "./style.css";
-import mypic from "../../assets/mypic.jpeg";
+import mypic from "../../../assets/mypic.jpeg";
 const AboutMe = () => {
   return (
     <div className="about-me-section">
