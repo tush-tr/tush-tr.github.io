@@ -11,7 +11,7 @@ const NavBar = () => {
         <Navbar.Brand href="/#/" className="navbar-brand">
           <img className="main-pic" src={pic} alt="" />
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle aria-controls="responsive-navbar-nav"  />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav id="navitems" className="ms-auto">
             <NavLink

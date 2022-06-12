@@ -152,7 +152,7 @@ const skillList = {
         <ul>
           <li>Docker</li>
           <li>Kubernetes</li>
-          <li>Terraform/Terragrunt</li>
+          <li>Terraform</li>
         </ul>
         <ul>
           <li>Github Actions</li>

@@ -35,7 +35,7 @@
 }
 /* Specific styles for active links */
 .link-active {
-  border-bottom: 2px solid red;
+  border-bottom: 2px solid #d7eee8;
 }
 .resume-link-nav {
   background-color: transparent;

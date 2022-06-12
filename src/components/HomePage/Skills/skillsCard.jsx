@@ -29,16 +29,24 @@ const ExperienceCard = styled.div`
     background-color: #122645;
   }
   @media only screen and (max-width: 600px) {
-    flex-direction: column;
+    flex-direction: row;
     & .skills-list__skills {
-      flex-direction: row;
+      flex-direction: column;
+    }
+    & .skills-card__data{
+      padding: 5px;
     }
     & button {
-      border-right: none;
-      border-bottom: 2px solid #cdb8b88c;
+      border-right: 2px solid #cdb8b88c;
+      border-bottom: none;
+
+      /* font-size: 0.5rem; */
+      /* padding: none; */
+      /* width: 30%; */
+
     }
     & .activeSkillSet {
-      border-bottom-color: #64ffda;
+      border-right-color: #64ffda;
     }
   }
 `;
