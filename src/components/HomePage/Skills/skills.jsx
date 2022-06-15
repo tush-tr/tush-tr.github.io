@@ -2,8 +2,8 @@ import { useState } from "react";
 import skillList from "./skillsList";
 import SkillsCard from "./skillsCard";
 const Skills = () => {
-  const [skillSet, setSkillSet] = useState(skillList.backend);
-  const [activeSkillSet, setActiveSkillSet] = useState("backend");
+  const [skillSet, setSkillSet] = useState(skillList.languages);
+  const [activeSkillSet, setActiveSkillSet] = useState("languages");
   const selectHandler = (event) => {
     setSkillSet(skillList[event.target.value]);
     setActiveSkillSet(event.target.value);
