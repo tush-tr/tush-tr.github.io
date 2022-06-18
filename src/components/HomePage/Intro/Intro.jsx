@@ -11,7 +11,7 @@ const Intro = () => {
         Software/Web Developer | DevOps Engineer
       </h3>
       <h3 className="intro-section-build-things intro-section-item">
-        I build things for the web and mobile.
+        I build things for the web on Cloud.
       </h3>
       <p className="intro-section-paragraph">
         I'm a DevOps Engineer and a passionate Developer having 1+ year of

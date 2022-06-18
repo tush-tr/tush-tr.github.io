@@ -1,9 +1,7 @@
 import styled from "styled-components";
 const SideMenuWrapper = styled.section`
-  /* border: 2px solid red; */
-  box-shadow: 3px 2px 10px 5px #264f8b;
+  box-shadow: rgb(38 79 139) 5px 0px 4px 0px;
   width: 20%;
-  /* background-color: #071b37; */
   display: flex;
   flex-direction: column;
   justify-content: center;
