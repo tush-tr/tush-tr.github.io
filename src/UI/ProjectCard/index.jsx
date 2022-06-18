@@ -1,7 +1,6 @@
 import ProjectCardWrapper from "./projectCard";
 
 import { FiGithub, FiExternalLink } from "react-icons/fi";
-
 const ProjectCard = ({
   id,
   projectImage,
@@ -12,7 +11,9 @@ const ProjectCard = ({
   live,
 }) => {
   return (
-    <ProjectCardWrapper id={id}>
+    <ProjectCardWrapper
+      id={id}
+    >
       <div className="project_card__image-section">
         <img src={projectImage} alt="" />
       </div>

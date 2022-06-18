@@ -1,5 +1,6 @@
 import gcloudactImage from "../../../assets/gcloudact.jpg";
 import bookanycar from "../../../assets/bookanycar.jpg";
+import nosndb from "../../../assets/noson.jpg";
 const list = [
   {
     id: 1,
@@ -18,6 +19,16 @@ const list = [
     technologies: "React.js, Node.js, MongoDB",
     github: "https://github.com/tush-tr/BookAnyCar",
     live: "https://tush-tr.github.io/BookAnyCar/",
+  },
+  {
+    id: 3,
+    projectHeading: "Noson DB",
+    projectImage: nosndb,
+    aboutProject: `A JavaScript package to use json file as a database. A json based database you can use in your nodejs projects just by installing the package.
+    nosondb enables you to use a json file as a database for your project.`,
+    technologies: "Node.js, JavaScript",
+    github: "https://github.com/tush-tr/nosondb",
+    live: "https://www.npmjs.com/package/@tush-tr/nosondb",
   },
 ];
 
