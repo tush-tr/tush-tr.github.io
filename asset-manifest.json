@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.aa9bec47.css",
-    "main.js": "/static/js/main.1842d6f5.js",
+    "main.js": "/static/js/main.c10bb546.js",
     "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
     "static/media/mypic.jpeg": "/static/media/mypic.af53b7fefa17832c5463.jpeg",
     "static/media/bookanycar.jpg": "/static/media/bookanycar.6a9f263b24f7cbcea062.jpg",
@@ -10,11 +10,11 @@
     "static/media/logo.jpeg": "/static/media/logo.c73c7b02f8693b71a1a1.jpeg",
     "index.html": "/index.html",
     "main.aa9bec47.css.map": "/static/css/main.aa9bec47.css.map",
-    "main.1842d6f5.js.map": "/static/js/main.1842d6f5.js.map",
+    "main.c10bb546.js.map": "/static/js/main.c10bb546.js.map",
     "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa9bec47.css",
-    "static/js/main.1842d6f5.js"
+    "static/js/main.c10bb546.js"
   ]
 }
