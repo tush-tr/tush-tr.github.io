@@ -31,7 +31,7 @@ const NavBar = () => {
               About
             </NavLink>
             <NavLink
-              to="/work"
+              to="/projects"
               className={({ isActive }) =>
                 isActive ? "link-active navlink" : "link navlink"
               }

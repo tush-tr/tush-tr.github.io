@@ -49,5 +49,14 @@ const ProjectCardWrapper = styled.div`
   & img:hover {
     mix-blend-mode: normal;
   }
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+    & .project_card__image-section {
+    width: 100%;
+  }
+  & .project_card__info-section {
+    width: 100%;
+  }
+  }
 `;
 export default ProjectCardWrapper;
