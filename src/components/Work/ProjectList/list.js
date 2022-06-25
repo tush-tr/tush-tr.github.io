@@ -1,6 +1,7 @@
 import gcloudactImage from "../../../assets/gcloudact.jpg";
 import bookanycar from "../../../assets/bookanycar.jpg";
 import nosndb from "../../../assets/noson.jpg";
+import shareSecrets from "../../../assets/share-secrets.gif"
 import Icons from "../../../UI/Icons";
 import {
   SiTerraform,
@@ -10,7 +11,9 @@ import {
   SiMongodb,
   SiNodedotjs,
   SiJavascript,
-  SiExpress
+  SiExpress,
+  SiHtml5,
+  SiCss3
 } from "react-icons/si";
 const list = [
   {
@@ -48,6 +51,15 @@ const list = [
     github: "https://github.com/tush-tr/nosondb",
     live: "https://www.npmjs.com/package/@tush-tr/nosondb",
   },
+  {
+    id: 4,
+    projectHeading: "Share Secrets",
+    projectImage: shareSecrets,
+    aboutProject: `A vanilla js website to share secrets`,
+    technologies: <Icons><SiHtml5 /> <SiCss3/> <SiJavascript /></Icons>,
+    github: "https://github.com/tush-tr/vanilla-js-projects/tree/main/share-secrets",
+    live:"https://tush-tr.github.io/vanilla-js-projects/share-secrets/"
+  }
 ];
 
 export default list;
