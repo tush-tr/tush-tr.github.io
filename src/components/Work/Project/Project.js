@@ -9,8 +9,9 @@ const Project = styled.div`
   background-color: #020c1c;
   margin: 10px;
   border-radius: 10px;
-  :hover{
+  :hover {
     box-shadow: 1px 1px 11px 3px white;
+    width: 41%;
   }
   & .project_card__image-section {
     width: 100%;
@@ -25,7 +26,6 @@ const Project = styled.div`
     border-radius: 10px 10px 0px 0px;
   }
   & .project_card__info-section {
-
     padding: 20px;
   }
   & .project_card__links,
@@ -46,8 +46,9 @@ const Project = styled.div`
     height: 40px;
     width: 40px;
   }
-  & h2,p{
-      color: white;
+  & h2,
+  p {
+    color: white;
   }
 `;
 export default Project;
