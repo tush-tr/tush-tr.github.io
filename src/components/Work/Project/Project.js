@@ -15,13 +15,12 @@ const Project = styled.div`
   }
   & .project_card__image-section {
     width: 100%;
-    border: 2px solid #020c1c;
-    height: 100%;
+    height: 250px;
     text-align: center;
     border-radius: 10px;
   }
   & img {
-    height: 300px;
+    height: 100%;
     width: 100%;
     border-radius: 10px 10px 0px 0px;
   }

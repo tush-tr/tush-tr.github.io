@@ -4,7 +4,7 @@ const WorkPageWrapper = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  &>h2 {
+  & .heading {
     text-align: start;
     align-self: flex-start;
     margin-left: 10%;
