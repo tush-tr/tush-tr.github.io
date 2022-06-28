@@ -1,5 +1,5 @@
 import gcloudactImage from "../../../assets/gcloudact.jpg";
-import bookanycar from "../../../assets/bookanycar.jpg";
+import bookanycar from "../../../assets/bookanycar.gif";
 import nosndb from "../../../assets/noson.jpg";
 import shareSecrets from "../../../assets/share-secrets.gif"
 import Icons from "../../../UI/Icons";

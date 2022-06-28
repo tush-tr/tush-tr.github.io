@@ -1,6 +1,6 @@
 import gcloudactImage from "../../../assets/gcloudact.jpg";
-import bookanycar from "../../../assets/bookanycar.jpg";
 import nosndb from "../../../assets/noson.jpg";
+import bookanycargif from "../../../assets/bookanycar.gif"
 const list = [
   {
     id: 1,
@@ -14,7 +14,7 @@ const list = [
   {
     id: 2,
     projectHeading: "Book Any Car",
-    projectImage: bookanycar,
+    projectImage: bookanycargif,
     aboutProject: `Like Ola, Uber applications, I used same idea with some of another functionalities. I started working on this project from 24 feb 2021 and created the project using node.js, mongoDB and EJS(tightly coupled). Then I migrated the project to separate backend and frontend applications.`,
     technologies: "React.js, Node.js, MongoDB",
     github: "https://github.com/tush-tr/BookAnyCar",
