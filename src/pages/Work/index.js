@@ -3,7 +3,7 @@ import WorkPageWrapper from "./Workpage";
 const WorkPage = () => {
   return (
     <WorkPageWrapper>
-      <h2>Here is some of my work.</h2>
+      <h2 className="heading">Here is some of my work.</h2>
       <Projects />
     </WorkPageWrapper>
   );
