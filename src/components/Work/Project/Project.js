@@ -49,5 +49,8 @@ const Project = styled.div`
   p {
     color: white;
   }
+  @media only screen and (max-width: 600px) {
+    width: 100%;
+  }
 `;
 export default Project;

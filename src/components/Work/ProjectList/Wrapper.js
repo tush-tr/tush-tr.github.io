@@ -4,5 +4,8 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  @media only screen and (max-width: 600px) {
+    flex-direction: column;
+  }
 `;
 export default Wrapper;
