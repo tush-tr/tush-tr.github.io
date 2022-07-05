@@ -9,5 +9,8 @@ const WorkPageWrapper = styled.section`
     align-self: flex-start;
     margin-left: 10%;
   }
+  & .header_image{
+    width: 90vw;
+  }
 `;
 export default WorkPageWrapper;

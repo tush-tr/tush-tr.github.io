@@ -4,6 +4,7 @@ import SkillSection from "../../components/HomePage/Skills";
 import Projects from "../../components/HomePage/projects";
 import CodeChallengeSection from "../../components/HomePage/CodeChallenges";
 import Youtube from "../../components/HomePage/youtube";
+import IconsImage from "../../UI/iconsImage";
 const Portfolio = () => {
   return (
     <div className="home-page-about-section-portfolio-wrapper">
@@ -12,6 +13,7 @@ const Portfolio = () => {
       <SkillSection />
       <CodeChallengeSection />
       <Projects />
+      <IconsImage />
       <Youtube />
     </div>
   );
