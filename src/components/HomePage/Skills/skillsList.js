@@ -24,7 +24,6 @@ import {
   SiMongodb,
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
-// import { GrGraphQl } from "react-icons/gr";
 import Icon from "../../../UI/Icon";
 import SkillData from "./skillData";
 const skillList = {
