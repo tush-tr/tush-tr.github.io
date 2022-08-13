@@ -1,5 +1,19 @@
 const YoutubeVideosList = [
   {
+    name: "Styling React Components",
+    video: (
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/WdQtepxpx8k"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    ),
+  },
+  {
     name: "Building an API using Node.js",
     video: (
       <iframe
@@ -41,19 +55,14 @@ const YoutubeVideosList = [
       ></iframe>
     ),
   },
-  {
-    name: "Paginated APIs explained",
-    video: (
-      <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/F91miUFR-XQ"
-        title="YouTube video player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-    ),
-  },
 ];
 export default YoutubeVideosList;
+{/* <iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/videoseries?list=PL5jQH1Kzu9zrku-uqq-qT1hMzLsYgzW5N"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>; */}
