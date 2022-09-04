@@ -9,7 +9,7 @@ const CodeChallenges = styled.section`
       display: flex;
 
       flex-direction: column;
-      width: 100%;
+      width: 90%;
     }
   }
 `;

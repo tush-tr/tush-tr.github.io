@@ -9,7 +9,6 @@ import {
   SiNodedotjs,
   SiCplusplus,
   SiExpress,
-  SiDjango,
   SiGraphql,
   SiDocker,
   SiKubernetes,
@@ -22,6 +21,8 @@ import {
   SiMysql,
   SiPostgresql,
   SiMongodb,
+  SiNestjs,
+  SiFirebase
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import Icon from "../../../UI/Icon";
@@ -87,7 +88,6 @@ const skillList = {
         <ul>
           <li>HTML</li>
           <li>CSS</li>
-          <li>SCSS</li>
         </ul>
       </div>
     </SkillData>
@@ -102,10 +102,7 @@ const skillList = {
           <SiExpress />
         </Icon>
         <Icon>
-          <SiGoland />
-        </Icon>
-        <Icon>
-          <SiDjango />
+          <SiNestjs />
         </Icon>
         <Icon>
           <SiGraphql />
@@ -115,11 +112,10 @@ const skillList = {
         <ul>
           <li>Node.js</li>
           <li>Express.js</li>
-          <li>GraphQL</li>
+          <li>Nest.js</li>
         </ul>
         <ul>
-          <li>Golang</li>
-          <li>Django</li>
+          <li>GraphQL</li>
           <li>REST APIs</li>
         </ul>
       </div>
@@ -194,11 +190,14 @@ const skillList = {
         <Icon>
           <SiMongodb />
         </Icon>
+        <Icon>
+          <SiFirebase />
+        </Icon>
       </div>
       <div className="skill-data_skill-names">
         <ul>
           <li>SQL databases: MySQL, PostgreSQL</li>
-          <li>NoSQL Databases: MongoDB</li>
+          <li>NoSQL Databases: MongoDB, Firebase</li>
         </ul>
       </div>
     </SkillData>

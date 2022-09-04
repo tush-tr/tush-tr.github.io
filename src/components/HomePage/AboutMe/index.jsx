@@ -1,17 +1,9 @@
 import "./style.css";
 import mypic from "../../../assets/mypic.jpeg";
-import AOS from 'aos';
-AOS.init();
 const AboutMe = () => {
   return (
     <div
       className="about-me-section"
-      data-aos="slide-right"
-      data-aos-offset="200"
-      data-aos-delay="20"
-      data-aos-duration="1000"
-      data-aos-easing="ease-in-out"
-      data-aos-mirror="true"
     >
       <h2>About Me</h2>
       <div className="about-me-section-inner-section">
