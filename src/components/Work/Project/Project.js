@@ -26,11 +26,15 @@ const Project = styled.div`
   }
   & .project_card__info-section {
     padding: 20px;
+    width: 100%;
   }
   & .project_card__links,
   .project_card__techs {
     margin-left: auto;
     width: fit-content;
+  }
+  & .project_card_tech_links{
+    margin-left: auto;
   }
   & a {
     text-decoration: none;
@@ -51,6 +55,13 @@ const Project = styled.div`
   }
   @media only screen and (max-width: 600px) {
     width: 100%;
+  }
+  @media (min-width: 1500px) and (max-width: 2000px) {
+    width: 30%;
+    :hover {
+    box-shadow: 1px 1px 11px 3px white;
+    width: 31%;
+  }
   }
 `;
 export default Project;
