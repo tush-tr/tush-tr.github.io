@@ -1,24 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.b6a5acae.css",
-    "main.js": "/static/js/main.c0433f7d.js",
+    "main.js": "/static/js/main.b3804d66.js",
     "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
     "static/media/bookanycar.gif": "/static/media/bookanycar.54e4fa7e793634330a09.gif",
     "static/media/mypic.jpeg": "/static/media/mypic.af53b7fefa17832c5463.jpeg",
     "static/media/share-secrets.gif": "/static/media/share-secrets.cbc02e3acd2cf560c4c5.gif",
-    "static/media/containers-kubernetes-essentials.png": "/static/media/containers-kubernetes-essentials.9552786482876edb54f9.png",
-    "static/media/docker-essentials-a-developer-introduction.png": "/static/media/docker-essentials-a-developer-introduction.596e7dd74c77fab6616a.png",
-    "static/media/python-for-data-science.png": "/static/media/python-for-data-science.03529140b55b1f2c05bf.png",
     "static/media/noson.jpg": "/static/media/noson.008b2bea713093419fad.jpg",
     "static/media/gcloudact.jpg": "/static/media/gcloudact.099a6ad7fcc62de6cd69.jpg",
     "static/media/logo.jpeg": "/static/media/logo.c73c7b02f8693b71a1a1.jpeg",
     "index.html": "/index.html",
     "main.b6a5acae.css.map": "/static/css/main.b6a5acae.css.map",
-    "main.c0433f7d.js.map": "/static/js/main.c0433f7d.js.map",
+    "main.b3804d66.js.map": "/static/js/main.b3804d66.js.map",
     "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b6a5acae.css",
-    "static/js/main.c0433f7d.js"
+    "static/js/main.b3804d66.js"
   ]
 }
