@@ -2,9 +2,7 @@ import "./style.css";
 import mypic from "../../../assets/mypic.jpeg";
 const AboutMe = () => {
   return (
-    <div
-      className="about-me-section"
-    >
+    <div className="about-me-section">
       <h2>About Me</h2>
       <div className="about-me-section-inner-section">
         <div className="about-me-section-information-container">
@@ -24,9 +22,12 @@ const AboutMe = () => {
             deployments and tasks over a large infrastructure.
           </p>
           <p className="about-me-section-para-3">
-            I also recently worked on a part-time freelance project. In that I
-            built a full backend web application using Node.js, and automated
-            the deployment to GCP.
+            I always will to contribute to open-source projects. I've published
+            multiple open source projects including GcloudAct (A terraform
+            module to automate the deployment and hosting process of your own
+            runners on Google cloud to run jobs in your GitHub Actions
+            workflows.) ,NosonDB (A JavaScript package for using json file as a
+            database).
           </p>
           <div className="about-me-section-skills">
             Here are a few technologies I've been working with recently:

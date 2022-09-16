@@ -9,7 +9,9 @@ const experience = {
       </h5>
       <h6 className="experience-time">March 2021 - present</h6>
       <ul>
-        <li>Write modern, performant, maintainable code for projects</li>
+        <li>
+          Write modern, performant, maintainable code for client projects.
+        </li>
         <li>
           Work with a variety of different languages, platforms, frameworks such
           as JavaScript, TypeScript, Google Cloud Platform, Docker, Terraform.
@@ -24,8 +26,25 @@ const experience = {
           on Google Cloud Platform)
         </li>
         <li>
-          Develop and maintain automated CI/CD pipelines for code deployment
-          using Github actions and Jenkins.
+          Developing and maintaining automated CI/CD pipelines for code
+          deployment using Github actions and Jenkins.
+        </li>
+        <li>
+          Integrating Monitoring tools, Security Scanners with Github Actions
+          workflows.
+        </li>
+        <li>
+          Integrating Hashicorp Vault with Node.js applications, Google Cloud
+          Platform(GCP) and Github Actions for managing secrets.
+        </li>
+        <li>
+          Developed automation frameworks for managing Google Cloud(GCP)
+          Infrastructure like Cloud Schedulers, Big Query views, scheduled
+          queries using Terraform, Node.js and Github Actions
+        </li>
+        <li>
+          Writing Dockerfiles and dockerizing node.js, React based applications
+          for deploying to Google Cloud Run.
         </li>
         <li>
           Work on automation builds, deployments, validations and configurations
