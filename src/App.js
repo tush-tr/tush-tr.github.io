@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setSpinner(false);
-    }, 5000);
+    }, 2000);
   }, []);
   if (!spinner) {
     return (
