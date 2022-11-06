@@ -57,33 +57,33 @@ const experience = {
       </ul>
     </ExperienceData>
   ),
-  qbh: (
-    <ExperienceData>
-      <h5>Freelance Backend Developer</h5>
-      <ul>
-        <li>Completed the full backend project using Node.js, MySQL DB</li>
-        <li>Write modern, performant, maintainable code for the project.</li>
-        <li>
-          Implemented all APIs in an effective manner and following the REST API
-          rules
-        </li>
-        <li>
-          Wrote understandable documentation for APIs using Swagger Open API.
-        </li>
-        <li>
-          Built CI/CD pipeline for automating deployment of the application
-          using Github Actions
-        </li>
-        <li>
-          Deployed frontend and backend applications to Google Cloud Platform
-        </li>
-        <li>
-          Used Google Cloud Technologies within the project like, Google Cloud
-          Storage, Google Cloud SQL, App Engine
-        </li>
-      </ul>
-    </ExperienceData>
-  ),
+  // qbh: (
+  //   <ExperienceData>
+  //     <h5>Freelance Backend Developer</h5>
+  //     <ul>
+  //       <li>Completed the full backend project using Node.js, MySQL DB</li>
+  //       <li>Write modern, performant, maintainable code for the project.</li>
+  //       <li>
+  //         Implemented all APIs in an effective manner and following the REST API
+  //         rules
+  //       </li>
+  //       <li>
+  //         Wrote understandable documentation for APIs using Swagger Open API.
+  //       </li>
+  //       <li>
+  //         Built CI/CD pipeline for automating deployment of the application
+  //         using Github Actions
+  //       </li>
+  //       <li>
+  //         Deployed frontend and backend applications to Google Cloud Platform
+  //       </li>
+  //       <li>
+  //         Used Google Cloud Technologies within the project like, Google Cloud
+  //         Storage, Google Cloud SQL, App Engine
+  //       </li>
+  //     </ul>
+  //   </ExperienceData>
+  // ),
 };
 
 const Experience = () => {
@@ -104,13 +104,13 @@ const Experience = () => {
         >
           HCL Tech
         </button>
-        <button
+        {/* <button
           onClick={selectHandler}
           className={activeExperience === "qbh" ? "activeExperience" : ""}
           value="qbh"
         >
           QBH Soft
-        </button>
+        </button> */}
       </div>
       <div className="experience-card__data">
         <p>{experienceData}</p>
