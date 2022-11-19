@@ -47,7 +47,7 @@ const NavBar = () => {
               Offer
             </NavLink>
             <a
-              href="https://tush-tr.github.io/blogs"
+              href="https://blog.tusharrajpoot.com"
               class="navlink"
               target="_blank"
               rel="noreferrer noopener"
