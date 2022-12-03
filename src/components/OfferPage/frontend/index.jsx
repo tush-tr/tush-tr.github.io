@@ -20,7 +20,7 @@ const Frontend = () => {
           <li>Setting up CI/CD for code deployment.</li>
           <li>
             experience in JS ecosystems, by having used in the
-            past many libraries like Next.js, React, Redux, Vue.js.
+            past many libraries like Next.js, React.
           </li>
         </ul>
       </div>
