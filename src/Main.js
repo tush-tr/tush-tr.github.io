@@ -6,6 +6,10 @@ import Header from "./components/header";
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Offer from "./pages/Offer";
+import Youtube from "./components/Redirects/Youtube";
+import Linkedin from "./components/Redirects/Linkedin";
+import Twitter from "./components/Redirects/Twitter";
+import Github from "./components/Redirects/Github";
 function Main() {
   return (
     <div className="portfolio-wrapper">
@@ -15,6 +19,10 @@ function Main() {
         <Route exact path="/projects" element={<Work />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/offer" element={<Offer />} />
+        <Route exact path="/youtube" element={<Youtube />} />
+        <Route exact path="/linkedin" element={<Linkedin />} />
+        <Route exact path="/twitter" element={<Twitter />} />
+        <Route exact path="/github" element={<Github />} />
       </Routes>
       <Footer />
     </div>
