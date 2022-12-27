@@ -1,9 +1,10 @@
 import gcloudactImage from "../../../assets/gcloudact.jpg";
 import bookanycar from "../../../assets/bookanycar.gif";
 import nosndb from "../../../assets/noson.jpg";
-import runodePng from "../../../assets/RU.png"
-import cicdTfPng from "../../../assets/devops-project1.jpg"
-import shareSecrets from "../../../assets/share-secrets.gif"
+import deploygkeimg from "../../../assets/deploygke.png"
+import runodePng from "../../../assets/RU.png";
+import cicdTfPng from "../../../assets/devops-project1.jpg";
+import shareSecrets from "../../../assets/share-secrets.gif";
 import Icons from "../../../UI/Icons";
 import {
   SiTerraform,
@@ -17,7 +18,8 @@ import {
   SiHtml5,
   SiCss3,
   SiAmazonaws,
-  SiDocker
+  SiDocker,
+  SiKubernetes
 } from "react-icons/si";
 const list = [
   {
@@ -51,7 +53,11 @@ const list = [
     projectHeading: "Noson DB",
     projectImage: nosndb,
     aboutProject: `A JavaScript package to use json file as a database.`,
-    technologies: <Icons><SiJavascript /> <SiNodedotjs /></Icons>,
+    technologies: (
+      <Icons>
+        <SiJavascript /> <SiNodedotjs />
+      </Icons>
+    ),
     github: "https://github.com/tush-tr/nosondb",
     live: "https://www.npmjs.com/package/@tush-tr/nosondb",
   },
@@ -60,27 +66,61 @@ const list = [
     projectHeading: "Share Secrets",
     projectImage: shareSecrets,
     aboutProject: `A vanilla js website to share secrets`,
-    technologies: <Icons><SiHtml5 /> <SiCss3/> <SiJavascript /></Icons>,
-    github: "https://github.com/tush-tr/vanilla-js-projects/tree/main/share-secrets",
-    live:"https://tush-tr.github.io/vanilla-js-projects/share-secrets/"
+    technologies: (
+      <Icons>
+        <SiHtml5 /> <SiCss3 /> <SiJavascript />
+      </Icons>
+    ),
+    github:
+      "https://github.com/tush-tr/vanilla-js-projects/tree/main/share-secrets",
+    live: "https://tush-tr.github.io/vanilla-js-projects/share-secrets/",
   },
   {
     id: 5,
     projectHeading: "Runode",
     projectImage: runodePng,
     aboutProject: `A node.js server runner to run server in development mode.`,
-    technologies: <Icons><SiNodedotjs /> <SiJavascript /></Icons>,
-    github: "https://github.com/tush-tr/vanilla-js-projects/tree/main/share-secrets",
-    live:"https://tush-tr.github.io/vanilla-js-projects/share-secrets/"
-  },{
+    technologies: (
+      <Icons>
+        <SiNodedotjs /> <SiJavascript />
+      </Icons>
+    ),
+    github:
+      "https://github.com/tush-tr/vanilla-js-projects/tree/main/share-secrets",
+    live: "https://tush-tr.github.io/vanilla-js-projects/share-secrets/",
+  },
+  {
     id: 6,
     projectHeading: "CI/CD with Terraform and AWS",
     projectImage: cicdTfPng,
     aboutProject: `Complete CI/CD project with AWS, Docker, Terraform, Github Actions.`,
-    technologies: <Icons><SiNodedotjs /> <SiAmazonaws /><SiTerraform /><SiGithubactions /><SiDocker /></Icons>,
-    github: "https://github.com/tush-tr/DevOps-Projects/tree/Complete-CI/CD-with-Terraform-AWS",
-    live:"https://youtu.be/5sZAx2ylsOo"
-  }
+    technologies: (
+      <Icons>
+        <SiNodedotjs /> <SiAmazonaws />
+        <SiTerraform />
+        <SiGithubactions />
+        <SiDocker />
+      </Icons>
+    ),
+    github:
+      "https://github.com/tush-tr/DevOps-Projects/tree/Complete-CI/CD-with-Terraform-AWS",
+    live: "https://youtu.be/5sZAx2ylsOo",
+  },
+  {
+    id: 7,
+    projectHeading: "App Deployment to Kubernetes on GKE",
+    projectImage: deploygkeimg,
+    aboutProject: `Deploy app to GKE using docker, kubernetes`,
+    technologies: (
+      <Icons>
+        <SiNodedotjs /> <SiGooglecloud />
+        <SiDocker /><SiKubernetes />
+      </Icons>
+    ),
+    github:
+      "https://github.com/tush-tr/DevOps-Projects/tree/Deploy-nodeapp-to-GKE",
+    live: "https://www.youtube.com/watch?v=w9GjyDafguI&t=154s",
+  },
 ];
 
 export default list;

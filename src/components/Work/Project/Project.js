@@ -11,7 +11,7 @@ const Project = styled.div`
   border-radius: 10px;
   :hover {
     box-shadow: 1px 1px 11px 3px white;
-    width: 41%;
+    /* width: 41%; */
   }
   & .project_card__image-section {
     width: 100%;
@@ -45,10 +45,6 @@ const Project = styled.div`
     width: 30px;
     color: white;
   }
-  & a svg:hover {
-    height: 40px;
-    width: 40px;
-  }
   & h2,
   p {
     color: white;
@@ -60,7 +56,6 @@ const Project = styled.div`
     width: 30%;
     :hover {
     box-shadow: 1px 1px 11px 3px white;
-    width: 31%;
   }
   }
 `;
