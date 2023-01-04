@@ -1,13 +1,14 @@
 import styled from "styled-components";
 const SideMenuWrapper = styled.section`
-  box-shadow: rgb(38 79 139) 5px 0px 4px 0px;
+  box-shadow: rgb(55 86 79) 5px 0px 4px 0px;
   width: 20%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  border-radius: 10px;
+  /* border-radius: 10px; */
+  background-color: #252525;
 
   & img {
     width: 200px;
@@ -26,7 +27,7 @@ const SideMenuWrapper = styled.section`
   }
   & .side-menu__text {
     width: 100%;
-    text-align: left;
+    text-align: center;
     margin: 10px;
     padding-top: 20px;
   }
