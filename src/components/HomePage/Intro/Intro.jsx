@@ -14,7 +14,7 @@ const Intro = () => {
         I build things for the web on Cloud.
       </h3>
       <p className="intro-section-paragraph">
-        I'm a DevOps Engineer and a passionate Developer having 1+ year of
+        I'm a DevOps Engineer and a passionate Developer having 2+ years of
         hands-on experience in automating and optimizing critical deployments
         over a large infrastructure.
         <br />
