@@ -56,7 +56,7 @@ const NavBar = () => {
             </a>
             <div className="resume-nav-bar-wrapper">
               <a
-                href="https://tush-tr.github.io/CV"
+                href="https://tush-tr.github.io/Tushar-Rajpoot-CV.pdf"
                 class="navlink resume-link-nav"
                 target="_blank"
                 rel="noreferrer noopener"
