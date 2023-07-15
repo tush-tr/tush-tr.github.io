@@ -17,12 +17,22 @@ import {
   SiGithubactions,
   SiJenkins,
   SiAmazonaws,
-  SiDigitalocean,
   SiMysql,
   SiPostgresql,
   SiMongodb,
   SiNestjs,
-  SiFirebase
+  SiFirebase,
+  SiLinux,
+  SiMicrosoftazure,
+  SiElasticstack,
+  SiPrometheus,
+  SiGrafana,
+  SiSplunk,
+  SiDatadog,
+  SiHelm,
+  SiPulumi,
+  SiGit,
+  SiVault
 } from "react-icons/si";
 import { IoLogoJavascript } from "react-icons/io";
 import Icon from "../../../UI/Icon";
@@ -131,10 +141,16 @@ const skillList = {
           <SiKubernetes />
         </Icon>
         <Icon>
+          <SiHelm />
+        </Icon>
+        <Icon>
           <SiTerraform />
         </Icon>
         <Icon>
           <SiAnsible />
+        </Icon>
+        <Icon>
+          <SiPulumi />
         </Icon>
         <Icon>
           <SiGithubactions />
@@ -142,17 +158,36 @@ const skillList = {
         <Icon>
           <SiJenkins />
         </Icon>
+        <Icon>
+          <SiGit />
+        </Icon>
+        <Icon>
+          <SiLinux />
+        </Icon>
+        <Icon>
+          <SiVault />
+        </Icon>
       </div>
       <div className="skill-data_skill-names">
         <ul>
           <li>Docker</li>
           <li>Kubernetes</li>
+          <li>Helm</li>
+        </ul>
+        <ul>
           <li>Terraform</li>
+          <li>Ansible</li>
+          <li>Pulumi</li>
         </ul>
         <ul>
           <li>Github Actions</li>
           <li>Jenkins</li>
-          <li>Ansible</li>
+          <li>ArgoCD</li>
+        </ul>
+        <ul>
+          <li>Git</li>
+          <li>Linux</li>
+          <li>Hashicorp Vault</li>
         </ul>
       </div>
     </SkillData>
@@ -167,13 +202,42 @@ const skillList = {
           <SiAmazonaws />
         </Icon>
         <Icon>
-          <SiDigitalocean />
+          <SiMicrosoftazure />
         </Icon>
       </div>
       <div className="skill-data_skill-names">
         <ul>
           <li>Google Cloud Platform</li>
-          <li>Familiar with AWS, Digital Ocean</li>
+          <li>AWS</li>
+          <li>Azure</li>
+        </ul>
+      </div>
+    </SkillData>
+  ),
+  monitoring: (
+    <SkillData>
+      <div className="skill-data__icons">
+        <Icon>
+          <SiElasticstack />
+        </Icon>
+        <Icon>
+          <SiGrafana />
+        </Icon>
+        <Icon>
+          <SiPrometheus />
+        </Icon>
+        <Icon>
+          <SiSplunk />
+        </Icon>
+        <Icon>
+          <SiDatadog />
+        </Icon>
+      </div>
+      <div className="skill-data_skill-names">
+        <ul>
+          <li>Elastic Stack: ElasticSearch, Logstash, Kibana</li>
+          <li>Prometheus + Grafana</li>
+          <li>Splunk, Datadog</li>
         </ul>
       </div>
     </SkillData>

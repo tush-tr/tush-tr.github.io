@@ -48,6 +48,13 @@ const Skills = () => {
         </button>
         <button
           onClick={selectHandler}
+          className={activeSkillSet === "monitoring" ? "activeSkillSet" : ""}
+          value="monitoring"
+        >
+          Monitoring
+        </button>
+        <button
+          onClick={selectHandler}
           className={activeSkillSet === "db" ? "activeSkillSet" : ""}
           value="db"
         >
