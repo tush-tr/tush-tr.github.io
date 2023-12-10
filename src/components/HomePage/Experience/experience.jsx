@@ -8,6 +8,7 @@ const experience = {
         Software Engineer <span>@HCL Tech</span>{" "}
       </h5>
       <h6 className="experience-time">March 2021 - present</h6>
+      <h6>Tech:  Google Cloud Platform(GCP), Nodejs, JavaScript, TypeScript, Golang, Python, Terraform, Github Actions, Docker, Kubernetes.</h6>
       <ul>
         <li>
           Write modern, performant, maintainable code for client projects.
@@ -17,42 +18,54 @@ const experience = {
           as JavaScript, TypeScript, Google Cloud Platform, Docker, Terraform.
         </li>
         <li>
-          Develop features and enhancements in backend projects (node.js
-          micro-service architecture), front-end (TypeScript, React)
+          Collaborated with 4+ development teams to gather requirements, design,
+          and develop custom Node.js tools integrated with Terraform and Github
+          Actions, resulting in a 40% reduction in manual data processing tasks
+          and saving 20+ hours per week.
         </li>
         <li>
-          Implement DevOps practices(creating CI/CD pipelines for deployment of
-          our client microservices to Google App Engine, Cloud Run, kubernetes
-          on Google Cloud Platform)
+          Implemented continuous integration pipelines using GitHub Actions to
+          automate build, testing, and deployment of applications across
+          environments on Google Cloud Platform, resulting in 40% increase in
+          developer productivity.
         </li>
         <li>
-          Developing and maintaining automated CI/CD pipelines for code
-          deployment using Github actions and Jenkins.
+          Ensured continuous compliance with security and quality best practices
+          using automated scan tools such as Blackduck and Sonar, resulting in a
+          15% reduction in potential security vulnerabilities and code issues.
+        </li>
+
+        <li>
+          Implemented infrastructure-as-code using Terraform and test cases for
+          IAC code using terratest in Golang, resulting in a 30% decrease in
+          deployment time and enabling scalable and reproducible infrastructure
+          deployments on Google Cloud Platform.
+        </li>
+
+        <li>
+          Implemented secure integration of Hashicorp Vault with Node.js backend
+          applications and CI/CD pipelines, ensuring the secure retrieval of
+          secrets during runtime using the Google Auth method/OIDC Auth
+          method/Approle Auth method. Reduced potential security risks by 25%.
         </li>
         <li>
-          Integrating Monitoring tools, Security Scanners with Github Actions
-          workflows.
+          Developed custom automation frameworks combining technologies such as
+          Terraform, Node.js, and GitHub Actions, resulting in a 40% reduction
+          in manual tasks and minimizing human errors. Notable examples include
+          Cloud Schedulers Automation and Big Query Automation.
         </li>
         <li>
-          Integrating Hashicorp Vault with Node.js applications, Google Cloud
-          Platform(GCP) and Github Actions for managing secrets.
+          Orchestrated the migration of 20+ applications from Google App Engine
+          to Cloud Run and GKE by containerizing them using Docker and
+          Kubernetes on GCP. This led to a 50% decrease in deployment overhead,
+          seamless deployment, and efficient scaling of microservices, resulting
+          in improved scalability and cost-effectiveness.
         </li>
         <li>
-          Developed automation frameworks for managing Google Cloud(GCP)
-          Infrastructure like Cloud Schedulers, Big Query views, scheduled
-          queries using Terraform, Node.js and Github Actions
-        </li>
-        <li>
-          Writing Dockerfiles and dockerizing node.js, React based applications
-          for deploying to Google Cloud Run.
-        </li>
-        <li>
-          Work on automation builds, deployments, validations and configurations
-          in the Google Cloud Platform environment.
-        </li>
-        <li>
-          Provisioning infrastructure, servers of GCP and deploying features
-          using various IAC tools such as Terraform, Ansible.
+          Conducted knowledge-sharing sessions and provided technical guidance
+          to team members, fostering a collaborative and learning-oriented work
+          environment. Received positive feedback from team members, leading to
+          a 15% increase in team productivity.
         </li>
       </ul>
     </ExperienceData>
