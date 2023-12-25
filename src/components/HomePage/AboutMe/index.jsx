@@ -16,9 +16,9 @@ const AboutMe = () => {
           <p className="about-me-section-para-2">
             Currently I'm working as a{" "}
             <span className="about-me-section-para-highlight">
-              DevOps Engineer at HCL Technologies
+              DevOps Engineer at Amazon
             </span>
-            . As my full-time job, I mostly work on automating critical
+            . As my full-time job, I mostly work on automating and managing critical
             deployments and tasks over a large infrastructure.
           </p>
           <p className="about-me-section-para-3">
@@ -37,14 +37,14 @@ const AboutMe = () => {
                   <li>JavaScript (ES6+)</li>
                   <li>React</li>
                   <li>Node.js</li>
-                  <li>Next.js</li>
+                  <li>Go</li>
                 </ul>
               </div>
               <div>
                 <ul>
                   <li>Docker</li>
                   <li>Kubernetes</li>
-                  <li>Google Cloud Platform</li>
+                  <li>AWS</li>
                   <li>CI/CD</li>
                 </ul>
               </div>

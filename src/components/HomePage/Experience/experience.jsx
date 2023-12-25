@@ -2,12 +2,26 @@ import { useState } from "react";
 import ExperienceCard from "./ExperienceCard";
 import ExperienceData from "./ExperienceText";
 const experience = {
+  amazon:(<ExperienceData>
+    <h5>
+        DevOps Engineer <span>@ Amazon</span>{" "}
+      </h5>
+      <h6 className="experience-time">Dec 2023 - present</h6>
+      <h6>Tech:  AWS, CI/CD, Python, Docker.</h6>
+      <ul>
+        <li>
+        Implementing continuous integration pipelines using AWS code pipeline and other tools to automate build, testing, and
+deployment of applications across environments on AWS infrastructure, resulting in 40% increase in developer
+productivity.
+        </li>
+        </ul>
+  </ExperienceData>),
   hcl: (
     <ExperienceData>
       <h5>
-        Software Engineer <span>@HCL Tech</span>{" "}
+        Software Engineer <span>@ HCL Tech</span>{" "}
       </h5>
-      <h6 className="experience-time">March 2021 - present</h6>
+      <h6 className="experience-time">March 2021 - dec 2023</h6>
       <h6>Tech:  Google Cloud Platform(GCP), Nodejs, JavaScript, TypeScript, Golang, Python, Terraform, Github Actions, Docker, Kubernetes.</h6>
       <ul>
         <li>
@@ -100,8 +114,8 @@ const experience = {
 };
 
 const Experience = () => {
-  const [experienceData, setExperienceData] = useState(experience.hcl);
-  const [activeExperience, setActiveExperience] = useState("hcl");
+  const [experienceData, setExperienceData] = useState(experience.amazon);
+  const [activeExperience, setActiveExperience] = useState("amazon");
   const selectHandler = (event) => {
     setExperienceData(experience[event.target.value]);
     setActiveExperience(event.target.value);
@@ -110,6 +124,13 @@ const Experience = () => {
   return (
     <ExperienceCard>
       <div className="experience-card__companies">
+      <button
+          onClick={selectHandler}
+          className={activeExperience === "amazon" ? "activeExperience" : ""}
+          value="amazon"
+        >
+          Amazon
+        </button>
         <button
           onClick={selectHandler}
           className={activeExperience === "hcl" ? "activeExperience" : ""}
@@ -117,13 +138,7 @@ const Experience = () => {
         >
           HCL Tech
         </button>
-        {/* <button
-          onClick={selectHandler}
-          className={activeExperience === "qbh" ? "activeExperience" : ""}
-          value="qbh"
-        >
-          QBH Soft
-        </button> */}
+        
       </div>
       <div className="experience-card__data">
         <p>{experienceData}</p>
