@@ -47,7 +47,7 @@ const NavBar = () => {
               Offer
             </NavLink>
             <a
-              href="https://blog.tusharrajpoot.com"
+              href="https://blog.kubekode.org"
               class="navlink"
               target="_blank"
               rel="noreferrer noopener"
